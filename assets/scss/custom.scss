@@ -1,0 +1,282 @@
+// Override this file to add your own SCSS styling.
+
+
+//$navbar-theme-bg-primary:  #17535d; //导航栏背景色
+$navbar-theme-bg-primary: unset; //导航栏背景色
+$navbar-theme-text-primary: #214986; //导航栏前景文字颜色
+$navbar-theme-top-line-primary: #8dc015; //导航栏顶部横线颜色
+
+
+  .page-header-not-animate   {
+
+  }
+
+a {
+    color: #4a4a4a;
+}
+
+h3.article-title a:hover, a:hover {
+    color: unset;
+    text-decoration: unset;
+}
+
+.navbar {
+    background-color: $navbar-theme-bg-primary;
+    box-shadow: none;
+    padding-top: 2rem;
+}
+
+.navbar-brand img {
+    display: inline-block;
+}
+
+#navbar-main .main-menu-item ul li .nav-link {
+    color: $navbar-theme-text-primary;
+    font-size: 1.3rem;
+}
+
+.navbar-light .navbar-brand {
+    color: $navbar-theme-text-primary;
+}
+
+
+
+.logo-r-text {
+    font-size: 1.3rem;
+    padding-left: 1rem;
+}
+
+.home-video-wrapper {
+    height: 428px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+}
+
+#section-hero {
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 1rem;
+    height: 1rem;
+}
+
+.hero-title {
+    font-size: 1.5rem;
+}
+
+.hero-lead {
+    font-size: 0.8rem;
+}
+}
+
+#section-news {
+h1 {
+    font-size: 1.4rem;
+}
+
+.card-simple .article-title {
+    font-size: 0.8rem;
+}
+
+.card-simple .article-style {
+    font-size: 0.8rem;
+}
+
+
+}
+
+.home-video-wrapper {
+    position: relative;
+
+
+}
+
+
+
+.home-cell-item {
+    margin-top: 1em;
+}
+
+.article-single-wrap {
+.article-title {
+    padding: 2rem 0 3rem 0;
+}
+
+.article-content {
+    padding: 1rem 0;
+li {
+    list-style: auto;
+    padding: 1rem 0;
+}
+}
+}
+
+
+
+.people-list-wrap  {
+.member-card {
+    display: flex;
+    margin: 1.3rem 0;
+
+
+.member-img {
+a {
+    width: 180px;
+    display: block;
+    padding-right: 1rem;
+}
+
+
+img {
+    max-width: unset;
+    width: 150px;
+}
+}
+
+.card-title {
+    font-size: 1.1rem;
+}
+}
+}
+
+
+.article-title {
+h1 {
+    font-size: 1.6rem;
+    font-weight: unset;
+}
+
+}
+
+
+.publication-list-wrap {
+.article-title {
+    padding: 2rem 0 3rem 0;
+}
+
+h3 {
+    font-size: 1.4rem;
+
+}
+
+.list_thesis .txt {
+p {
+    padding: 0.5rem 0 0 0;
+
+a {
+    line-height: 32px;
+    color: #666;
+    font-size: 0.85rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+}
+}
+
+.list_thesis .pub-list-item  {
+    border-top: 1px solid #ddd;
+    padding: 3rem 0;
+}
+
+}
+
+.news-items-wrapper{
+.agents-items-primary {
+h3, p {
+    text-align: center;
+}
+h3 {
+    padding: 1rem 0 0 0;
+}
+
+.cover_img {
+    margin: 0 auto;
+}
+}
+}
+.news-items-wrapper{
+    padding: 1rem 0 2rem 1rem;
+
+.article-title {
+    padding: 2rem 0 3rem 0;
+}
+
+.news_item {
+    margin: 0 0 5rem 0;
+}
+.event-date {
+    padding: 1rem 0;
+a {
+    color: #717171;
+}
+}
+.cover_img {
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid #eee;
+}
+
+.txt {
+
+h3 {
+    font-size: 1rem;
+}
+}
+}
+
+.news-single-wrap {
+.cat_name {
+    color: #2c6ed7;
+    padding: 5rem 1rem;
+    text-align: center;
+}
+}
+
+.agents-single-wrap {
+.cat_name {
+    color: #2c6ed7;
+    padding: 5rem 1rem;
+    text-align: center;
+}
+
+.v_agents_content {
+p {
+    text-align: center;
+}
+}
+}
+
+.common-article {
+h3 {
+    padding: 1rem 0;
+}
+p {
+    padding: 0.5rem 0;
+}
+}
+
+.copy {
+    margins-top: 6rem;
+}
+
+//手机
+@media (max-width: 478px) {
+    .universal-wrapper {
+
+    }
+
+    .navbar-brand {
+        margin: 0 auto;
+    }
+
+
+    #navbar-main .main-menu-item ul li .nav-link {
+        color: #2e2e2e;
+    }
+
+    .people-persons-list-row {
+        flex-direction: column;
+    }
+
+
+}

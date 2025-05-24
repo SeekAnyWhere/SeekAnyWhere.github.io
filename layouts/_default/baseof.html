@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html lang="en-US">
+  <head>
+    <!-- head (don't cache it) -->
+    {{ partial "essentials/head.html" . }}
+
+
+    <!-- style (always cache it) -->
+    {{ partialCached "essentials/style.html" . }}
+
+  </head>
+
+  <body id="top" class="page-wrapper " >
+
+
+    <div class="page-header-not-animate  ">
+      <!-- header (don't cache it) -->
+      {{ partial "essentials/header.html" . }}
+
+    </div>
+
+    <div class="page-body  {{ if not .IsHome }} not-home-page-wrapper {{ end }}">
+        {{ block "main" . }}{{ end }}
+    </div>
+
+    <!-- footer -->
+    {{ partial "essentials/footer.html" . }}
+
+
+    <!-- script (always cache it) -->
+    {{ partialCached "essentials/script.html" . }}
+  </body>
+</html>

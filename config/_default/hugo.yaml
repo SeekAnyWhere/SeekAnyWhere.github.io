@@ -1,0 +1,19 @@
+###
+
+
+baseURL: "https://seekanywhere.github.io/"
+languageCode: "en-us"
+title: "SeekAnyWhere LAB"
+    
+    
+    
+    
+############################ Markup ##############################
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
+
+

@@ -1,0 +1,50 @@
+
+
+
+{{ $publications := .Site.Data.publications }}
+
+  <div class="  publication-list-wrap " id="publication-box">
+
+
+    <div class="list_thesis pub-list-items">
+
+
+
+
+      {{ range $index, $item := $publications }}
+
+      <div class="row pub-list-item">
+        <div class="col-12 col-md-8">
+
+          <div class="txt">
+            <h3><a href="{{ .Params.url_external }}" target="_blank"  >{{ $item.title | markdownify | emojify  }} </a></h3>
+            <p><a href="{{ .Params.url_external }}" target="_blank"  >{{ $item.authors | markdownify | emojify  }} </a></p>
+            <p><a href="{{ .Params.url_external }}" target="_blank"  >{{ $item.organization | markdownify | emojify  }}</a></p>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="cover_img">
+            <a href="{{ .Params.url_external }}" target="_blank"  ><img src="images/{{ $item.image | relLangURL }}" /></a>
+          </div>
+        </div>
+
+
+      </div>
+
+
+      {{ end }}
+
+
+
+
+    </div>
+
+
+
+
+
+    </div>
+  </div>
+
+
