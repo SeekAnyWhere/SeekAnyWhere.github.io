@@ -2,11 +2,11 @@
 
 
 <section id="section-research-news" class="home-section hs-research-news">
-  <div class=" container-fluid">
+  <div class=" container ">
 
     <div class="row">
 
-        <div class=" home-cell-item">
+        <div class=" home-cell-item col-12">
           <div class="i_hd">
             <h3>The Lab</h3>
           </div>
@@ -28,11 +28,14 @@
 
 
     <div class="row">
-      <div class="i_hd">
+      <div class="col-12 i_hd">
         <h3>Publication</h3>
       </div>
 
-      {{ partial "home_section/publication.html" . }}
+      <div class="col-12">
+        {{ partial "home_section/publication.html" . }}
+      </div>
+
     </div>
 
   </div>
