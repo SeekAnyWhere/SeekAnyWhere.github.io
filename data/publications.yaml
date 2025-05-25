@@ -1,16 +1,18 @@
 
 ## publications list
 
-- title: Leveraging Transfer Learning for Data Augmentation in Fault Diagnosis of Imbalanced Time-Frequency Images
-  authors: Jiang, Xiaoyu, Junhua Zheng, Ziyi Chen, Zhiqiang Ge, Zhihuan Song, and Xiaoguang Ma
-  organization: IEEE Transactions on Automation Science and Engineering (2024)
+- title: "LoD-Loc: Aerial Visual Localization using LoD 3D Map with Neural Wireframe Alignment"
+  authors: Juelin Zhu, Shen Yan, Long Wang, Shengyue Zhang, Yu Liu, Maojun Zhang
   image: publications/p1.png
+  pdf_link: https://proceedings.neurips.cc/paper_files/paper/2024/hash/d78ece6613953f46501b958b7bb4582f-Abstract-Conference.html
+  project_link: https://victorzoo.github.io/LoD-Loc.github.io/
 
 
-- title: Robust Adversarial Attacks on Imperfect Deep Neural Networks in Fault Classification
-  authors: Jiang, Xiaoyu, Xiangyin Kong, Junhua Zheng, Zhiqiang Ge, Xinmin Zhang, and Zhihuan Song
-  organization: IEEE Transactions on Industrial Informatics (2024)
+- title: "UAVD4L: A Large-Scale Dataset for UAV 6-DoF Localization"
+  authors: Rouwan Wu, Xiaoya Cheng, Juelin Zhu, Yuxiang Liu,Maojun Zhang, Shen Yan
   image: publications/p2.png
+  pdf_link: https://arxiv.org/html/2401.05971v1
+  project_link: https://github.com/RingoWRW/UAVD4L
 
 
 

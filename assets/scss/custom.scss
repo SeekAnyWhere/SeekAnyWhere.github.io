@@ -19,6 +19,9 @@ h3.article-title a:hover, a:hover {
     color: unset;
     text-decoration: unset;
 }
+.btn-outline-primary:hover {
+    background-color: unset;
+}
 
 .navbar {
     background-color: $navbar-theme-bg-primary;

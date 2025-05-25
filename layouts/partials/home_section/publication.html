@@ -17,9 +17,18 @@
         <div class="col-12 col-md-8">
 
           <div class="txt">
-            <h3><a href="{{ .Params.url_external }}" target="_blank"  >{{ $item.title | markdownify | emojify  }} </a></h3>
-            <p><a href="{{ .Params.url_external }}" target="_blank"  >{{ $item.authors | markdownify | emojify  }} </a></p>
-            <p><a href="{{ .Params.url_external }}" target="_blank"  >{{ $item.organization | markdownify | emojify  }}</a></p>
+            <h3> {{ $item.title | markdownify | emojify  }}  </h3>
+            <p> {{ $item.authors | markdownify | emojify  }} </p>
+            <p>
+              {{ with $item.pdf_link }}
+                <a style="width: 4.5rem;" class="btn btn-outline-primary btn-page-header btn-sm" href="{{ . }}" target="_blank" >Pdf</a>
+              {{ end }}
+
+              {{ with $item.project_link }}
+               <a style="width: 4.5rem;"  class="btn btn-outline-primary btn-page-header btn-sm" href="{{ . }}" target="_blank" >Project</a>
+              {{ end }}
+            </p>
+
           </div>
 
         </div>
