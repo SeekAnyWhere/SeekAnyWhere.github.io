@@ -1,0 +1,124 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+<div class="col-12   home-research-section">
+
+  <div class="research-summary">
+    {{ $page.Content }}
+  </div>
+  <div class=" ">
+    <a href="javascript: toggleShowProgress(); ">
+      [Show the research progress]
+    </a>
+  </div>
+
+
+
+  <div class="research-papers  d-none">
+
+    <ul class="nav nav-pills">
+        {{ $progress_index := 0 }}
+        {{ range  $key, $value := $page.Params.research_step_names }}
+            {{ $progress_index = add  1 $progress_index }}
+          <li class="nav-item">
+            <div class="nav-link {{ if eq $progress_index 1 }} active {{ end }}  "
+                 data-step="{{ $key }}"
+            >
+                {{$value}}
+            </div>
+          </li>
+        {{ end }}
+    </ul>
+
+
+      {{ $step_index := 0 }}
+    {{ range  $step, $paper_items := $page.Params.research_step_papers }}
+        {{ $step_index = add  1 $step_index }}
+
+    <div class="research-step {{$step}} container {{ if ne $step_index 1 }} d-none {{ end }} "  >
+      {{ range  $p_index, $paper := $paper_items }}
+      <div class="research-step-item row">
+        <div class="col-12 col-md-1" ><img class="lead-img" src="{{ $paper.image | relLangURL }}" /></div>
+        <div class="col-12 col-md-11" >
+          <div>
+            <div><span class="pub-title">{{ $paper.title | markdownify | emojify }}</span></div>
+            <div><span class="pub-author">{{ $paper.authors_text | markdownify | emojify }}</span></div>
+            {{ with $paper.journal }}
+            <div><strong class="pub-journal">{{ . | markdownify | emojify }}</strong></div>
+            {{ end }}
+          </div>
+          {{ with $paper.links }}
+          <div class="btn-links">
+            {{ range $idx, $item := . }}
+            <a class="btn btn-outline-primary btn-page-header btn-sm"
+               href="{{ $item.url }}">
+              {{ $item.name | markdownify | emojify }}
+            </a>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</div>
+<script>
+  // let showProgress = false;
+
+  // steps
+  // const stepPages = ['step1', 'step2', 'step3'];
+  const stepPages = [];
+  {{ range  $key, $value := $page.Params.research_step_names }}
+  stepPages.push('{{$value}}');
+  {{ end }}
+
+  // active step
+  let activeStep = stepPages[0];
+
+
+
+  function toggleShowProgress() {
+    const progressElement = $(`.home-research-section .research-papers`);
+    if(progressElement) {
+      if (progressElement.hasClass('d-none')) {
+        progressElement.removeClass('d-none');
+      } else {
+        progressElement.addClass('d-none');
+      }
+    }
+    return false;
+  }
+
+  function clickShowPaper() {
+
+    function onStepChange() {
+      $(`.home-research-section .research-papers .research-step`).addClass('d-none');
+      $(`.home-research-section .research-papers .${activeStep}`).removeClass('d-none');
+    }
+
+
+    function highlightTab() {
+      $('.home-research-section .nav-item .nav-link').click((event) => {
+        const thisElement = event.currentTarget;
+        // console.log(event)
+        $('.home-research-section .nav-item .nav-link').removeClass('active');
+        $(thisElement).addClass('active');
+
+        activeStep = $(thisElement).data('step');
+        onStepChange();
+      });
+    }
+
+
+    highlightTab();
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    clickShowPaper();
+  });
+
+
+
+</script>

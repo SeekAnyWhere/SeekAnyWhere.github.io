@@ -1,285 +1,365 @@
 // Override this file to add your own SCSS styling.
+@font-face {
+  font-family: "Optima";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Optima"), url("../font/OPTIMA.woff") format("woff");
+}
 
+@font-face {
+  font-family: "Optima Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Optima Italic"), url("../font/Optima_Italic.woff") format("woff");
+}
 
-//$navbar-theme-bg-primary:  #17535d; //导航栏背景色
-$navbar-theme-bg-primary: unset; //导航栏背景色
-$navbar-theme-text-primary: #214986; //导航栏前景文字颜色
-$navbar-theme-top-line-primary: #8dc015; //导航栏顶部横线颜色
+@font-face {
+  font-family: "Optima Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Optima Medium"), url("../font/Optima-Medium.woff") format("woff");
+}
 
+@font-face {
+  font-family: "Optima Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Optima Bold"), url("../font/OPTIMA_B.woff") format("woff");
+}
 
-  .page-header-not-animate   {
-
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
   }
-
-a {
-    color: #4a4a4a;
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
 
-h3.article-title a:hover, a:hover {
-    color: unset;
-    text-decoration: unset;
-}
-.btn-outline-primary:hover {
-    background-color: unset;
-}
-
-.navbar {
-    background-color: $navbar-theme-bg-primary;
-    box-shadow: none;
-    padding-top: 2rem;
+html, body {
+  font-family: "Optima";
+  color: #000000;
+  /* background-color: #f8f7debd; */
+  font-size: 16px;
 }
 
-.navbar-brand img {
-    display: inline-block;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 宽屏 .container 宽度
+@media (min-width: 1200px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1100px;
+    padding: 0;
+  }
 }
 
-#navbar-main .main-menu-item ul li .nav-link {
-    color: $navbar-theme-text-primary;
-    font-size: 1.3rem;
+
+
+.page-body {
+  padding: 1.4rem 2.8rem;
+  margin: 1.2rem auto;
+  /* background-color: #f8f7debd; */
+  box-shadow: 0px 0px 1.2rem #999;
+  border-radius: 1rem;
+}
+
+
+.page-content-wrap {
+  padding: 0;
+}
+
+
+.nav-container-bg {
+
+  border-radius: 10px;
+  background-color: #999EA2;
+  box-shadow: 0px 0px 20px #999;
+
+
+}
+.navbar .navbar-nav .nav-link {
+  font-size: 1.2rem;
+
 }
 
 .navbar-light .navbar-brand {
-    color: $navbar-theme-text-primary;
+  font-family: "Optima Bold";
+  font-weight: bold;
+  color: #004990;
+  font-size: 1.5rem;
 }
 
 
+// pc
+#navbar-main .main-menu-item.collapse ul {
 
-.logo-r-text {
-    font-size: 1.3rem;
+  li {
+    margin: 0 0 0 1.5rem;
+    .nav-link {
+      color: #ffffff;
+      font-family: "Optima Medium";
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+  }
+
+}
+// 手机
+#navbar-main .main-menu-item.show ul li .nav-link {
+  color: #000000;
+}
+
+.dark a, .dark h3.article-title a:hover {
+  //color: #f76497;
+  color: #1565c0;
+}
+
+
+.profile-avatar {
+  .profile-bio {
     padding-left: 1rem;
-}
+  }
+  .avatar-square {
+    border-radius: 1.3rem;
+    width: 200px;
+    height: 200px;
+  }
 
-.home-video-wrapper {
-    height: 428px;
-    background-color: #000;
-    display: flex;
-    align-items: center;
-}
-
-#section-hero {
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    width: 1rem;
-    height: 1rem;
-}
-
-.hero-title {
-    font-size: 1.5rem;
-}
-
-.hero-lead {
-    font-size: 0.8rem;
-}
-}
-
-#section-news {
-h1 {
-    font-size: 1.4rem;
-}
-
-.card-simple .article-title {
-    font-size: 0.8rem;
-}
-
-.card-simple .article-style {
-    font-size: 0.8rem;
-}
-
-
-}
-
-.home-video-wrapper {
-    position: relative;
-
-
-}
-
-
-
-.home-cell-item {
-    margin-top: 1em;
-}
-
-.article-single-wrap {
-.article-title {
-    padding: 2rem 0 3rem 0;
-}
-
-.article-content {
-    padding: 1rem 0;
-li {
-    list-style: auto;
-    padding: 1rem 0;
-}
-}
-}
-
-
-
-.people-list-wrap  {
-.member-card {
-    display: flex;
-    margin: 1.3rem 0;
-
-
-.member-img {
-a {
-    width: 180px;
-    display: block;
-    padding-right: 1rem;
-}
-
-
-img {
-    max-width: unset;
-    width: 150px;
-}
-}
-
-.card-title {
-    font-size: 1.1rem;
-}
-}
-}
-
-
-.article-title {
-h1 {
+  .big-icon {
     font-size: 1.6rem;
-    font-weight: unset;
-}
+  }
 
-}
+  .network-img-icon {
+    width: 1.6rem;
+  }
+  .net-icon-link {
+    .animate-icon {
+      color: black;
+    }
+  }
 
-
-.publication-list-wrap {
-.article-title {
-    padding: 2rem 0 3rem 0;
-}
-
-h3 {
-    font-size: 1.4rem;
-
-}
-
-.list_thesis .txt {
-p {
-    padding: 0.5rem 0 0 0;
-
-a {
-    line-height: 32px;
-    color: #666;
-    font-size: 0.85rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-}
-}
-
-.list_thesis .pub-list-item  {
-    border-top: 1px solid #ddd;
-    padding: 3rem 0;
-}
-
-}
-
-.news-items-wrapper{
-.agents-items-primary {
-h3, p {
-    text-align: center;
-}
-h3 {
-    padding: 1rem 0 0 0;
-}
-
-.cover_img {
-    margin: 0 auto;
-}
-}
-}
-.news-items-wrapper{
-    padding: 1rem 0 2rem 1rem;
-
-.article-title {
-    padding: 2rem 0 3rem 0;
-}
-
-.news_item {
-    margin: 0 0 5rem 0;
-}
-.event-date {
+  .email-link {
     padding: 1rem 0;
-a {
-    color: #717171;
-}
-}
-.cover_img {
-    overflow: hidden;
-    border-radius: 10px;
-    border: 1px solid #eee;
+    a {
+      font-family: "Optima Bold";
+      font-size: 1.3rem;
+      color: #000080;
+    }
+  }
+
+  .animate-icon:hover, .email-link:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    color: #1565c0;
+  }
+
+  .portrait-title h2 {
+    font-family: "Optima Bold";
+    font-size: 2.25rem;
+    font-weight: bold;
+  }
+  .role-text {
+    font-family: "Optima Medium";
+    color: black;
+    font-size: 1.15rem;
+  }
+
 }
 
-.txt {
 
-h3 {
+
+.home-section {
+  padding: 2rem 0;
+  h1 {
+    font-size: 2rem;
+    font-family: "Optima Bold";
+    font-weight: bold;
+    color: black;
+    padding: 2rem 0 1rem 0 ;
+  }
+}
+.home-section:nth-of-type(even) {
+  //background: #f7f7f7;
+  background: unset;
+}
+
+
+
+#recent_news {
+  .media.stream-item:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.home-pubs-section {
+  .pub-title {
     font-size: 1rem;
-}
-}
-}
+    font-family: "Optima Bold";
+    font-weight: bold;
+  }
 
-.news-single-wrap {
-.cat_name {
-    color: #2c6ed7;
-    padding: 5rem 1rem;
-    text-align: center;
-}
-}
+  .pub-author {
+    font-size: 1rem;
+    font-family: "Optima Medium";
+  }
 
-.agents-single-wrap {
-.cat_name {
-    color: #2c6ed7;
-    padding: 5rem 1rem;
-    text-align: center;
-}
+  .pub-journal {
+    font-style: italic;
+    font-family: "Optima Bold";
+    color: #a52a2a;
+    font-weight: bold;
+  }
 
-.v_agents_content {
-p {
-    text-align: center;
-}
-}
-}
-
-.common-article {
-h3 {
-    padding: 1rem 0;
-}
-p {
+  .pub-item {
     padding: 0.5rem 0;
+    video, img {
+      width: 100%;
+    }
+  }
+
+
+  video {
+    //height: 8rem;
+    //width: 11rem;
+    //height: 8rem;
+    //background-color: #999;
+    //padding: 0.5rem;
+  }
+
+  .toggle-links-content{
+    position: relative;
+    .toggle-content {
+      border: 1px solid lightgray;
+      padding: 1rem;
+      width: 90%;
+
+      pre {
+        font-size: 0.8rem;
+        color: #000000;
+      }
+    }
+  }
+
 }
+
+.home-research-section {
+  .pub-title {
+    font-size: 1rem;
+    font-family: "Optima Bold";
+    font-weight: bold;
+  }
+
+  .pub-author {
+    font-size: 1rem;
+    font-family: "Optima Medium";
+  }
+
+  .pub-journal {
+    font-style: italic;
+    font-family: "Optima Bold";
+    color: #a52a2a;
+    font-weight: bold;
+  }
+
+  .research-step-item {
+    padding: 0.5rem 0;
+    video, img {
+      width: 100%;
+      padding: 0.4rem 0 0 0;
+    }
+  }
+
+
+  .nav-pills {
+    justify-content: space-between;
+    .nav-link {
+      padding: 0.1rem;
+      font-size: 0.9rem;
+      text-align: center;
+      flex: 1;
+    }
+    .nav-item {
+      flex: 1;
+      cursor: pointer;
+      margin: 0.5rem 0.15rem;
+      background-color: #f0f0f0;
+      border: 1px solid #c0c0c0;
+      border-radius: 0.5rem;
+      transition: background-color 0.3s, border-color 0.3s;
+
+      display: flex;
+      align-items: center;
+    }
+
+
+    .active {
+      color: #fff;
+      // background-color: #1565c0;
+      background-color: #b99470;
+    }
+
+  }
+
+
 }
 
-.copy {
-    margins-top: 6rem;
-}
 
-//手机
-@media (max-width: 478px) {
-    .universal-wrapper {
 
+
+
+
+
+@media (max-width: 640px) {
+
+  .header--fixed {
+    .container {
+      padding-left: 0 ;
+      padding-right: 0 ;
     }
+  }
 
-    .navbar-brand {
-        margin: 0 auto;
-    }
-
-
-    #navbar-main .main-menu-item ul li .nav-link {
-        color: #2e2e2e;
-    }
-
-    .people-persons-list-row {
-        flex-direction: column;
-    }
-
+  .page-body {
+    padding: 1.4rem 1.8rem;
+  }
 
 }

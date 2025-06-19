@@ -1,0 +1,32 @@
+{{ $item := .item }}
+
+{{ $link := $item.RelPermalink }}
+{{ $target := "" }}
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+      <span>[{{ $item.Params.date | time.Format "2006/Jan/02" }}]</span>
+      <span>{{ $item.Title | markdownify | emojify }}</span>
+
+{{/*
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
+    </div>
+*/}}
+  </div>
+
+  {{/*
+  <div class="ml-3">
+    {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
+    {{ with $resource }}
+    {{ $image := .Resize "150x webp" }}
+    <a href="{{$link}}" {{ $target | safeHTMLAttr }}>
+      <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
+           alt="{{ $item.Title }}" loading="lazy">
+    </a>
+    {{end}}
+  </div>
+  */}}
+
+</div>

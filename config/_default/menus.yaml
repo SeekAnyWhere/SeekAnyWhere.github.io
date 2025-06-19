@@ -3,33 +3,52 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
+main:
+  - name: Home
+    url: '#about'
+    weight: 10
 
-#main:
-#  - name: Home
-#    url: /
-#    weight: 10
-#
-#  - name: Research
-#    url: research
-#    weight: 20
-#
-#  - name: Members
-#    url: people
-#    weight: 30
-#
-#  - name: Publications
-#    url: publication
-#    weight: 40
-#
-#
-#  - name: News
-#    url: event
-#    weight: 50
-#
-#  - name: Agents
-#    url: agents
+  - name: Bio
+    url: '#about'
+    weight: 20
+
+  - name: News
+    url: '#recent_news'
+    weight: 30
+
+  - name: Research
+    url: '#research'
+    weight: 40
+
+
+
+  - name: Publications
+    url: '#publications'
+    weight: 50
+
+#  - name: Summary
+#    url: '#summary'
+#    weight: 60
+
+#  - name: Awards
+#    url: '#awards'
 #    weight: 60
 #
-#  - name: Join us
-#    url: joinus
+#  - name: Service
+#    url: '#service'
 #    weight: 70
+
+
+
+
+
+
+#  - name: Contact
+#    url: '#contact'
+#    weight: 40
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
+#  - name: Curriculum Vitae
+#    url: uploads/leonelli_mauro.pdf
+#    weight: 50
