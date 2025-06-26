@@ -7,7 +7,9 @@
 
 appearance:
   theme_day: apogee
-  theme_night: dark
+  # theme_night: dark
+  # remove dark theme
+  theme_night:
   font: minimal
   # S,  M  , L
   font_size: S
@@ -37,7 +39,7 @@ header:
     align: r
     show_logo: true
     show_language: false
-    show_day_night: false
+    show_day_night: true
     show_search: false
     highlight_active_link: true
 
