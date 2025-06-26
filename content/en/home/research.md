@@ -44,8 +44,21 @@ research_step_papers:
   
     - title: "BoxDreamer: Dreaming Box Corners for Generalizable Object Pose Estimation"
       authors_text: "Yuanhong Yu, Xingyi He, Chen Zhao, Junhao Yu, Jiaqi Yang, Ruizhen Hu Yujun Shen Xing Zhu, Xiaowei Zhou, **Sida Peng**"
-      image: "img/research/s1-p1.png"
+      media_icon:
+        type: image
+        src: "img/research/s1-p1.png"
       journal: "CVPR 2025"
+      intro: "Fitting SMPL to clothed humans using Equivariant "
+      cite_text: |
+        @misc{li2025etch,
+          title={ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness},
+          author={Boqian Li and Haiwen Feng and Zeyu Cai and Michael J. Black and Yuliang Xiu},
+          year={2025},
+          eprint={2503.10624},
+          archivePrefix={arXiv},
+          primaryClass={cs.CV}
+        }
+
       links:
           - name: Paper
             url: "https://arxiv.org/pdf/2504.07955.pdf"
@@ -59,7 +72,9 @@ research_step_papers:
   
     - title: "ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness"
       authors_text: "Boqian Li, Haiwen Feng, Zeyu Cai, Michael J. Black, **Yuliang Xiu**"
-      image: "img/research/s1-p2.png"
+      media_icon:
+        type: image
+        src: "img/research/s1-p2.png"
       journal: "CVPR 2025"
       links:
           - name: Paper
@@ -75,7 +90,9 @@ research_step_papers:
   
     - title: "Prompting Depth Anything for 4K Resolution Accurate Metric Depth Estimation"
       authors_text: "Yuanhong Yu, Xingyi He, Chen Zhao, Junhao Yu, Jiaqi Yang, Ruizhen Hu Yujun Shen Xing Zhu, Xiaowei Zhou, **Sida Peng**"
-      image: "img/research/s2-p1.png"
+      media_icon:
+        type: image
+        src: "img/research/s2-p1.png"
       journal: "CVPR 2025"
       links:
           - name: Paper
@@ -90,7 +107,9 @@ research_step_papers:
   
     - title: "ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness"
       authors_text: "Boqian Li, Haiwen Feng, Zeyu Cai, Michael J. Black, **Yuliang Xiu**"
-      image: "img/research/s2-p2.png"
+      media_icon:
+        type: image
+        src: "img/research/s2-p2.png"
       journal: "CVPR 2025"
       links:
           - name: Paper
@@ -106,7 +125,9 @@ research_step_papers:
   
     - title: "BoxDreamer: Dreaming Box Corners for Generalizable Object Pose Estimation"
       authors_text: "Yuanhong Yu, Xingyi He, Chen Zhao, Junhao Yu, Jiaqi Yang, Ruizhen Hu Yujun Shen Xing Zhu, Xiaowei Zhou, **Sida Peng**"
-      image: "img/research/s3-p1.png"
+      media_icon:
+        type: image
+        src: "img/research/s3-p1.png"
       journal: "CVPR 2025"
       links:
           - name: Paper
@@ -121,7 +142,9 @@ research_step_papers:
   
     - title: "ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness"
       authors_text: "Boqian Li, Haiwen Feng, Zeyu Cai, Michael J. Black, **Yuliang Xiu**"
-      image: "img/research/s3-p2.png"
+      media_icon:
+        type: image
+        src: "img/research/s3-p2.png"
       journal: "CVPR 2025"
       links:
           - name: Paper

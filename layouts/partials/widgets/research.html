@@ -38,8 +38,20 @@
     <div class="research-step {{$step}} container {{ if ne $step_index 1 }} d-none {{ end }} "  >
       {{ range  $p_index, $paper := $paper_items }}
       <div class="research-step-item row">
-        <div class="col-12 col-md-1" ><img class="lead-img" src="{{ $paper.image | relLangURL }}" /></div>
-        <div class="col-12 col-md-11" >
+        <div class="col-12 col-md-2" >
+
+          {{/*<img class="lead-img" src="{{ $paper.image | relLangURL }}" />*/}}
+
+            {{ if eq $paper.media_icon.type "video" }}
+              <video autoplay="" loop="" muted="">
+                <source src="{{ $paper.media_icon.src | relLangURL }}" type="video/mp4">
+              </video>
+            {{ else }}
+              <img class="lead-img" src="{{ $paper.media_icon.src | relLangURL }}" />
+            {{ end }}
+
+        </div>
+        <div class="col-12 col-md-10" >
           <div>
             <div><span class="pub-title">{{ $paper.title | markdownify | emojify }}</span></div>
             <div><span class="pub-author">{{ $paper.authors_text | markdownify | emojify }}</span></div>
@@ -47,7 +59,9 @@
             <div><strong class="pub-journal">{{ . | markdownify | emojify }}</strong></div>
             {{ end }}
           </div>
-          {{ with $paper.links }}
+
+
+          {{/* with $paper.links }}
           <div class="btn-links">
             {{ range $idx, $item := . }}
             <a class="btn btn-outline-primary btn-page-header btn-sm"
@@ -56,7 +70,45 @@
             </a>
             {{ end }}
           </div>
-          {{ end }}
+          {{ end */}}
+
+
+          <div class="toggle-links-content">
+
+              {{ with $paper.links }}
+
+                <div class="btn-links">
+                  <a class="btn btn-outline-primary btn-page-header btn-sm"
+                     href="javascript: togglePaperContent('research_intro_idx{{$p_index}}')">
+                    <i class="fas fa-angle-double-down" >&nbsp;</i> Intro
+                  </a>
+                    {{ range $idx, $item := . }}
+                      <a class="btn btn-outline-primary btn-page-header btn-sm"
+                         href="{{ $item.url }}">
+                          {{ $item.name | markdownify | emojify }}
+                      </a>
+                    {{ end }}
+                  <a class="btn btn-outline-primary btn-page-header btn-sm"
+                     href="javascript: togglePaperContent('research_cite_idx{{$p_index}}')">
+                    <i class="fas fa-quote-left"  >&nbsp;</i> Bibtex
+                  </a>
+                </div>
+              {{ end }}
+
+              {{ with $paper.intro }}
+              <div class="toggle-content " id="research_intro_idx{{$p_index}}" style="display: none;">
+                <div class=" ">{{ . }}</div>
+              </div>
+              {{ end }}
+
+              {{ with $paper.cite_text }}
+                <div  class="toggle-content"  id="research_cite_idx{{$p_index}}" style="display: none;">
+                  <pre>{{ . }}</pre>
+                </div>
+              {{ end }}
+          </div>
+
+
         </div>
       </div>
       {{ end }}

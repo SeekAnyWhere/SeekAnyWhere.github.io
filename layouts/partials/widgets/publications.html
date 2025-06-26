@@ -152,31 +152,3 @@
   </div>
 </div>
 
-<script>
-
-  function filterPubItems(year) {
-    console.log(year)
-    if (year === '*') {
-      $(`.isotope-item`).show();
-    } else {
-      $('.isotope-item').hide();
-      $(`.isotope-item${year}`).show();
-    }
-  }
-
-
-
-
-
-
-  function togglePaperContent(paperId) {
-    const el = document.getElementById(paperId);
-    if (el) {
-      if (el.style.display === "none") {
-        el.style.display = "block";
-      } else {
-        el.style.display = "none";
-      }
-    }
-  }
-</script>
