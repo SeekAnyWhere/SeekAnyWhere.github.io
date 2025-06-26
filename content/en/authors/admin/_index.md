@@ -1,9 +1,9 @@
 ---
 
-title: Yuliang Xiu 修宇亮
+title: Seek-AnyWhere 猎影
 
 
-role: Max Planck Institute for Intelligent Systems
+role: College of Systems Engineering<br> National University of Defense Technology
 
 
 #organizations:
@@ -11,54 +11,54 @@ role: Max Planck Institute for Intelligent Systems
 #  url: https://www.sjtu.edu.cn/
   
 
-email: "yuliang.xiu@tue.mpg.de"
+email: "yanshen12@nudt.edu.cn"
 
 social:
 
-  - icon: cv
-    icon_pack: ai
-    link: 'https://xiuyuliang.cn/about/yuliangxiu.pdf'
-    
-  - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: "https://scholar.google.com/citations?hl=zh-CN&user=9zAA9rQAAAAJ"
+#  - icon: cv
+#    icon_pack: ai
+#    link: 'https://xiuyuliang.cn/about/yuliangxiu.pdf'
+#    
+#  - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
+#    icon_pack: fas
+#    link: "https://scholar.google.com/citations?hl=zh-CN&user=9zAA9rQAAAAJ"
 
   - icon: github
     icon_pack: fab
-    link: "https://github.com/983632847"
+    link: "http://github.com/seekanywhere"
 
 
-  - icon:
-    icon_pack:
-    icon_image: img/icons/huggingface.svg
-    link: "https://huggingface.co/Yuliang"
+#  - icon:
+#    icon_pack:
+#    icon_image: img/icons/huggingface.svg
+#    link: "https://huggingface.co/Yuliang"
 
 
-  - icon: separator_line
-
-  
-  - icon:
-    icon_pack:
-    icon_image: img/icons/redbook.svg
-    link: "https://www.xiaohongshu.com/user/profile/608d2550000000000101e726"
-
-  - icon: twitter
-    icon_pack: fab
-    link: "https://twitter.com/yuliangxiu"   
-    
-  - icon: zhihu
-    icon_pack: fab
-    link: "https://www.zhihu.com/people/yuliangxiu"
-
-      
-  - icon: youtube
-    icon_pack: fab
-    link: "https://www.youtube.com/channel/UCicL0Co86tGbzoV2heWiEaA"
-
-       
-  - icon: bilibili
-    icon_pack: fab
-    link: "https://space.bilibili.com/86857008"
+#  - icon: separator_line
+#
+#  
+#  - icon:
+#    icon_pack:
+#    icon_image: img/icons/redbook.svg
+#    link: "https://www.xiaohongshu.com/user/profile/608d2550000000000101e726"
+#
+#  - icon: twitter
+#    icon_pack: fab
+#    link: "https://twitter.com/yuliangxiu"   
+#    
+#  - icon: zhihu
+#    icon_pack: fab
+#    link: "https://www.zhihu.com/people/yuliangxiu"
+#
+#      
+#  - icon: youtube
+#    icon_pack: fab
+#    link: "https://www.youtube.com/channel/UCicL0Co86tGbzoV2heWiEaA"
+#
+#       
+#  - icon: bilibili
+#    icon_pack: fab
+#    link: "https://space.bilibili.com/86857008"
 
   
 

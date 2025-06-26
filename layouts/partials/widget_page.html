@@ -141,7 +141,8 @@
             {{ with $st.Params.subtitle }}<p class="mt-1">{{ . | markdownify | emojify }}</p>{{ end }}
           </div>
         {{else}}
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          {{/*<div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">*/}}
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column  align-items-lg-start">
             {{ with $st.Title }}<h1 class="mb-0">{{ . | markdownify | emojify }}</h1>{{ end }}
             {{ with $st.Params.subtitle }}<p class="mt-1">{{ . | markdownify | emojify }}</p>{{ end }}
             {{ with $st.Params.ex_link }}<p class="mt-1"><a href="{{ $st.Params.ex_link }}">{{ $st.Params.ex_link_title | markdownify | emojify }}</a></p>{{ end }}
