@@ -3,17 +3,22 @@
 title: Seek-AnyWhere 猎影
 
 
-role: College of Systems Engineering<br> National University of Defense Technology
+role: College of Systems Engineering
 
+school: National University of Defense Technology
 
 #organizations:
 #- name: Shanghai Jiao Tong University, China
 #  url: https://www.sjtu.edu.cn/
   
 
-email: "yanshen12@nudt.edu.cn"
+#email: "yanshen12@nudt.edu.cn"
 
 social:
+  
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto: yanshen12@nudt.edu.cn'
 
 #  - icon: cv
 #    icon_pack: ai

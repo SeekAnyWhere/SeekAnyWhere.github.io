@@ -43,6 +43,7 @@
         </h2>
 
           {{ with $person.role }}<div class="role-text">{{ . | markdownify | emojify }}</div>{{ end }}
+          {{ with $person.school }}<div class="school-text">{{ . | markdownify | emojify }}</div>{{ end }}
 
           {{ range $person.organizations }}
             <h3>

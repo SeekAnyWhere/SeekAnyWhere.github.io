@@ -169,12 +169,16 @@ html, body {
     font-size: 1.6rem;
   }
 
+  .network-icon {
+    margin-top: 2rem;
+  }
   .network-img-icon {
     width: 1.6rem;
   }
   .net-icon-link {
+    margin-right: 1rem;
     .animate-icon {
-      color: black;
+      //color: black;
     }
   }
 
@@ -197,11 +201,19 @@ html, body {
     font-family: "Optima Bold";
     font-size: 2.25rem;
     font-weight: bold;
+    margin: 1.5rem 0 0 0;
   }
+
   .role-text {
     font-family: "Optima Medium";
+    color: #7e8b97;
+    font-size: 1rem;
+    padding: 1rem 0 0 0;
+  }
+  .school-text {
+    font-family: "Optima Medium";
     color: black;
-    font-size: 1.15rem;
+    font-size: 1rem;
   }
 
 }
