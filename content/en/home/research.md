@@ -162,11 +162,11 @@ research_step_papers:
 
 Our lab pioneers **3D geospatial intelligence** with a focus on:
 
-**GPS-Independent UAV Localization** – Enabling drones to geolocate and navigate using various map representations (e.g., textured model, white model, DOM+DSM and DOM+DEM) in GPS-denied environments.
+**·  GPS-Independent UAV Localization** – Enabling drones to geolocate and navigate using various map representations (e.g., textured model, white model, DOM+DSM and DOM+DEM) in GPS-denied environments.
 
-**Planet-Scale Digital Twins** – Generating accurate, photorealistic, semantic, and real-time 3D reconstructions of Earth's surface for intelligently measuring, analysis and decision-making.
+**·  Planet-Scale Digital Twins** – Generating accurate, photorealistic, semantic, and real-time 3D reconstructions of Earth's surface for intelligently measuring, analysis and decision-making.
 
-**Physics-Based Multimodal Simulation** – Developing immersive virtual environments for UAV perception, path planning, and localization training via sensor simulation (RGB, thermal, LiDAR, et.al).
+**·  Physics-Based Multimodal Simulation** – Developing immersive virtual environments for UAV perception, path planning, and localization training via sensor simulation (RGB, thermal, LiDAR, et.al).
 
 **Goal:** Automatically detect, identify, and geolocate any target worldwide.
 
