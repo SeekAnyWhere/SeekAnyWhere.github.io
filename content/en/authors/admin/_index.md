@@ -89,5 +89,7 @@ highlight_name: true
 ---
 
 
-I am currently pursuing a Ph.D. degree at Shanghai Jiao Tong University, China. I received my B.S. degree from the School of Mathematics and Computational Science at Hunan University of Science and Technology in 2016. I received my M.S. degree from the Institute of Information Engineering, Chinese Academy of Sciences, and the School of Cyber Security at the University of Chinese Academy of Sciences in 2020. I also spent 2 years (2020-2022) at the Chinese University of Hong Kong, Shenzhen as a research associate. My major research interests are focused on Multimodal UAV tracking, Underwater Vision-Language Tracking, and Embodied Intelligence.
+Welcome to the website of SAW (Seek-AnyWhere) Lab​. Our lab is affiliated with the College of Systems Engineering at National University of Defense Technology. We are mainly engaged in the field of 3D Computer Vision, particularly including GPS-independent UAV localization, planet-scale digital twins, and physics-based multimodal simulation. Most of our works are open-sourced, please explore our [Github Page](http://github.com/seekanywhere) to know more about our projects!
+
+**Join Us:**​​ We are looking for self-motivated students, postdocs and research assistants, please contact [this Email](mailto:yanshen12@nudt.edu.cn) if you are interested in working with us.
 

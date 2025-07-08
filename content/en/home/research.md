@@ -160,14 +160,13 @@ research_step_papers:
   
 ---
 
-I like advancing Visual Effects and Autonomous Driving, as well as solving fundamental research problems arising from important challenges. I also like to explore the capability boundaries of new techniques on addressing challenges.
+Our lab pioneers **3D geospatial intelligence** with a focus on:
 
-After the CVPR 2025 submission, I decided to pursue research projects that address crucial problems in the industry with significant impact. Such problems typically lack well-established solutions, necessitating us to explore new techniques and provide new insights. I would avoid participating in projects that lack both practical value and unresolved problems, as I believe they only produces useless papers, consuming my passion for research.
+**GPS-Independent UAV Localization** – Enabling drones to geolocate and navigate using various map representations (e.g., textured model, white model, DOM+DSM and DOM+DEM) in GPS-denied environments.
 
-The following are my target systems:
+**Planet-Scale Digital Twins** – Generating accurate, photorealistic, semantic, and real-time 3D reconstructions of Earth's surface for intelligently measuring, analysis and decision-making.
 
-- In the past few years, I have focused on developing two systems: Volumetric Video and Driving Simulator.
+**Physics-Based Multimodal Simulation** – Developing immersive virtual environments for UAV perception, path planning, and localization training via sensor simulation (RGB, thermal, LiDAR, et.al).
 
-- Moving forward, I start working on Egocentric AI, which consists of three sub-systems: Lifelong Memory, World Model and Action Policy. The corresponding applications include AI Toys and AI Glasses
-
+**Goal:** Automatically detect, identify, and geolocate any target worldwide.
 ![](img/research/r1.png)
