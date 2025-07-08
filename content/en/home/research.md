@@ -171,8 +171,12 @@ Our lab pioneers **3D geospatial intelligence** with a focus on:
 **Goal:** Automatically detect, identify, and geolocate any target worldwide.
 
 GPS-Independent -> Planet-Scale < - Physics-Based
+
 UAV Localization       Digital Twins      Multimodal Simulation
+
 Solving retrieval, matching, optimization, pose estimation and perception for airborne 3D vision.
+
 Delivering advanced 3D geospatial content products on the planet through AI-powered software.
+
 Modeling multi-modal signals for various sensors based on data prior of the 3D world.
 ![](img/research/r1.png)
