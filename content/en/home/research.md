@@ -32,9 +32,9 @@ design:
   
 research_step_names:
 
-  step1: Spatial Reasoning
-  step2: 3D Reconstruction
-  step3: Generation
+  step1: GPS-Independent UAV Localization
+  step2: Planet-Scale Digital Twins
+  step3: Physics-Based Multimodal Simulation
 
     
     
