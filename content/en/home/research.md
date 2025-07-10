@@ -168,5 +168,4 @@ Our lab pioneers **3D geospatial intelligence** with a focus on:
 
 **·  Physics-Based Multimodal Simulation** – Developing immersive virtual environments for UAV perception, path planning, and localization training via sensor simulation (RGB, thermal, LiDAR, et.al).
 
-Modeling multi-modal signals for various sensors based on data prior of the 3D world.
-![](img/research/r2.png)
+![](img/research/r4.png)
