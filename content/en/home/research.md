@@ -140,21 +140,21 @@ research_step_papers:
     
   step2:
   
-    - title: "Prompting Depth Anything for 4K Resolution Accurate Metric Depth Estimation"
-      authors_text: "Yuanhong Yu, Xingyi He, Chen Zhao, Junhao Yu, Jiaqi Yang, Ruizhen Hu Yujun Shen Xing Zhu, Xiaowei Zhou, **Sida Peng**"
+    - title: "Spectral–spatial adversarial multidomain synthesis network for cross-scene hyperspectral image classification"
+      authors_text: "Xi Chen, Lin Gao, **Maojun Zhang**, Chen Chen, Shen Yan"
       media_icon:
         type: image
-        src: "img/research/s2-p1.png"
-      journal: "CVPR 2025"
+        src: "img/research/S2AMSnet.png"
+      journal: "IEEE Transactions on Geoscience and Remote Sensing"
       links:
           - name: Paper
-            url: "https://arxiv.org/pdf/2504.07955.pdf"
+            url: "https://ieeexplore.ieee.org/abstract/document/10531019"
         
           - name: Project Page
-            url: "https://zju3dv.github.io/boxdreamer"
+            url: "https://github.com/daxichen/S2AMSnet"
         
           - name: Code
-            url: "https://github.com/zju3dv/BoxDreamer"
+            url: "https://github.com/daxichen/S2AMSnet"
     
   
     - title: "ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness"
