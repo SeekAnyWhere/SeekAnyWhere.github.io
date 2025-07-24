@@ -41,57 +41,60 @@ research_step_names:
     
 research_step_papers:
   step1:
-  
-    - title: "BoxDreamer: Dreaming Box Corners for Generalizable Object Pose Estimation"
-      authors_text: "Yuanhong Yu, Xingyi He, Chen Zhao, Junhao Yu, Jiaqi Yang, Ruizhen Hu Yujun Shen Xing Zhu, Xiaowei Zhou, **Sida Peng**"
+
+    - title: "UAV-GeoLoc: A Large-vocabulary Dataset and Geometry-Transformed Method for UAV Geo-Localization"
+      authors_text: "Rouwan Wu, jiacheng Deng, Mingyu Mou, Xingyi He, Maojun Zhang, Yu Liu, **Shen Yan**"
       media_icon:
         type: image
-        src: "img/research/s1-p1.png"
-      journal: "CVPR 2025"
-      intro: "Fitting SMPL to clothed humans using Equivariant "
+        src: "img/research/teaser_RAL.png"
+      journal: "IEEE Robotics and Automation Letters"
+      intro: "World-UAV -- a diverse and realistic dataset for UAV-to-satellite geo-localization, UAVPlace -- a transformation-invariant retrieval method that significantly improves performance under extreme viewpoint variations."
       cite_text: |
-        @misc{li2025etch,
-          title={ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness},
-          author={Boqian Li and Haiwen Feng and Zeyu Cai and Michael J. Black and Yuliang Xiu},
-          year={2025},
-          eprint={2503.10624},
-          archivePrefix={arXiv},
-          primaryClass={cs.CV}
+        
+
+      links:
+          - name: Paper
+            url: "https://ieeexplore.ieee.org/document/11077664"
+        
+          - name: Project Page
+            url: "https://ringowrw.github.io/GeoLoc-UAV/"
+        
+          - name: Code
+            url: "https://github.com/RingoWRW/GeoLoc-UAV"
+
+    - title: "LoD-Loc v2: Aerial Visual Localization over Low Level-of-Detail City Models using Explicit Silhouette Alignment"
+      authors_text: "Juelin Zhu, Shuaibang Peng, Long Wang, Hanlin Tan, Yu Liu, Maojun  Zhang, **Shen  Yan**"
+      media_icon:
+        type: image
+        src: "img/research/teaser_ICCV.png"
+      journal: "ICCV 2025"
+      intro: "We propose a novel method for aerial visual localization over low Level-of-Detail (LoD) city models. Previous wireframe-alignment-based method LoD-Loc [97] has shown promising localization results leveraging LoD models. However, LoD-Loc mainly relies on high-LoD (LoD3 or LoD2) city models, but the majority of available models and those many countries plan to construct nationwide are low-LoD (LoD1). Consequently, enabling localization on low-LoD city models could unlock drones' potential for global urban localization. To address these issues, we introduce LoD-Loc v2, which employs a coarse-to-fine strategy using explicit silhouette alignment to achieve accurate localization over low-LoD city models in the air. Specifically, given a query image, LoD-Loc v2 first applies a building segmentation network to shape building silhouettes. Then, in the coarse pose selection stage, we construct a pose cost volume by uniformly sampling pose hypotheses around a prior pose to represent the pose probability distribution. Each cost of the volume measures the degree of alignment between the projected and predicted silhouettes. We select the pose with maximum value as the coarse pose. In the fine pose estimation stage, a particle filtering method incorporating a multi-beam tracking approach is used to efficiently explore the hypothesis space and obtain the final pose estimation. To further facilitate research in this field, we release two datasets with LoD1 city models covering 10.7 km, along with real RGB queries and ground-truth pose annotations. Experimental results show that LoD-Loc v2 improves estimation accuracy with high-LoD models and enables localization with low-LoD models for the first time. Moreover, it outperforms state-of-the-art baselines by large margins, even surpassing texture-model-based methods, and broadens the convergence basin to accommodate larger prior errors. The code and dataset will be made available upon publication."
+      cite_text: |
+        @misc{zhu2025lodlocv2aerialvisual,
+              title={LoD-Loc v2: Aerial Visual Localization over Low Level-of-Detail City Models using Explicit Silhouette Alignment}, 
+              author={Juelin Zhu and Shuaibang Peng and Long Wang and Hanlin Tan and Yu Liu and Maojun Zhang and Shen Yan},
+              year={2025},
+              eprint={2507.00659},
+              archivePrefix={arXiv},
+              primaryClass={cs.CV},
+              url={https://arxiv.org/abs/2507.00659}, 
         }
 
       links:
           - name: Paper
-            url: "https://arxiv.org/pdf/2504.07955.pdf"
+            url: "https://arxiv.org/abs/2507.00659"
         
           - name: Project Page
-            url: "https://zju3dv.github.io/boxdreamer"
+            url: "https://github.com/VictorZoo/LoD-Loc-v2"
         
           - name: Code
-            url: "https://github.com/zju3dv/BoxDreamer"
-    
+            url: "https://github.com/VictorZoo/LoD-Loc-v2" 
   
-    - title: "ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness"
-      authors_text: "Boqian Li, Haiwen Feng, Zeyu Cai, Michael J. Black, **Yuliang Xiu**"
-      media_icon:
-        type: image
-        src: "img/research/s1-p2.png"
-      journal: "CVPR 2025"
-      links:
-          - name: Paper
-            url: "https://arxiv.org/pdf/2504.07955.pdf"
-        
-          - name: Project Page
-            url: "https://zju3dv.github.io/boxdreamer"
-        
-          - name: Code
-            url: "https://github.com/zju3dv/BoxDreamer"
-
-
     - title: "LoD-Loc: Aerial Visual Localization using LoD 3D Map with Neural Wireframe Alignment"
       authors_text: "Juelin Zhu, Shen Yan, Long Wang, Shengyue Zhang, Yu Liu, **Maojun Zhang**"
       media_icon:
         type: image
-        src: "content/en/publication/NIPS_2024/teaser.png"
+        src: "img/research/teaser_NuerIPS.png"
       journal: "NeurIPS 2024"
       intro: "We propose a new method named LoD-Loc for visual localization in the air. Unlike existing localization algorithms, LoD-Loc does not rely on complex 3D representations and can estimate the pose of an Unmanned Aerial Vehicle (UAV) using a Level-of-Detail (LoD) 3D map. LoD-Loc mainly achieves this goal by aligning the wireframe derived from the LoD projected model with that predicted by the neural network. Specifically, given a coarse pose provided by the UAV sensor, LoD-Loc hierarchically builds a cost volume for uniformly sampled pose hypotheses to describe pose probability distribution and select a pose with maximum probability. Each cost within this volume measures the degree of line alignment between projected and predicted wireframes. LoD-Loc also devises a 6-DoF pose optimization algorithm to refine the previous result with a differentiable Gaussian-Newton method. As no public dataset exists for the studied problem, we collect two datasets with map levels of LoD3.0 and LoD2.0, along with real RGB queries and ground-truth pose annotations. We benchmark our method and demonstrate that LoD-Loc achieves excellent performance, even surpassing current state-of-the-art methods that use textured 3D models for localization."
       cite_text: |
@@ -113,77 +116,119 @@ research_step_papers:
         
           - name: Code
             url: "https://github.com/VictorZoo/LoD-Loc"
-    
+
+    - title: "UAVD4L:A Large-Scale Dataset for UAV6-DoF Localization"
+      authors_text: "Rouwan Wu, Xiaoya Cheng, Juelin Zhu, Yuxiang Liu, **Maojun Zhang**, Shen Yan"
+      media_icon:
+        type: image
+        src: "img/research/teaser_3DV.png"
+      journal: "IEEE 3DV"
+      intro: "The first large-scale dataset designed specifically for 6-DoF localization of UAVs in GPS-denied environments."
+      cite_text: |
+        @inproceedings{wu2024uavd4l,
+          title={UAVD4L: A Large-Scale Dataset for UAV 6-DoF Localization},
+          author={Wu, Rouwan and Cheng, Xiaoya and Zhu, Juelin and Liu, Yuxiang and Zhang, Maojun and Yan, Shen},
+          booktitle={2024 International Conference on 3D Vision (3DV)},
+          pages={1574--1583},
+          year={2024},
+          organization={IEEE}
+        }
+        
+
+      links:
+          - name: Paper
+            url: "https://arxiv.org/pdf/2401.05971"
+        
+          - name: Project Page
+            url: "https://seekanywhere.github.io/"
+        
+          - name: Code
+            url: "https://github.com/RingoWRW/UAVD4L"
+
     
   step2:
   
-    - title: "Prompting Depth Anything for 4K Resolution Accurate Metric Depth Estimation"
-      authors_text: "Yuanhong Yu, Xingyi He, Chen Zhao, Junhao Yu, Jiaqi Yang, Ruizhen Hu Yujun Shen Xing Zhu, Xiaowei Zhou, **Sida Peng**"
+    - title: "Spectral–spatial adversarial multidomain synthesis network for cross-scene hyperspectral image classification"
+      authors_text: "Xi Chen, Lin Gao, **Maojun Zhang**, Chen Chen, Shen Yan"
       media_icon:
         type: image
-        src: "img/research/s2-p1.png"
-      journal: "CVPR 2025"
+        src: "img/research/S2AMSnet.png"
+      journal: "IEEE Transactions on Geoscience and Remote Sensing"
+      cite_text: |
+        @article{chen2024spectral,
+          title={Spectral--spatial adversarial multidomain synthesis network for cross-scene hyperspectral image classification},
+          author={Chen, Xi and Gao, Lin and Zhang, Maojun and Chen, Chen and Yan, Shen},
+          journal={IEEE Transactions on Geoscience and Remote Sensing},
+          volume={62},
+          pages={1--16},
+          year={2024},
+          publisher={IEEE}
+          }
+      
       links:
           - name: Paper
-            url: "https://arxiv.org/pdf/2504.07955.pdf"
+            url: "https://ieeexplore.ieee.org/abstract/document/10531019"
         
           - name: Project Page
-            url: "https://zju3dv.github.io/boxdreamer"
+            url: "https://github.com/daxichen/S2AMSnet"
         
           - name: Code
-            url: "https://github.com/zju3dv/BoxDreamer"
+            url: "https://github.com/daxichen/S2AMSnet"
     
   
-    - title: "ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness"
-      authors_text: "Boqian Li, Haiwen Feng, Zeyu Cai, Michael J. Black, **Yuliang Xiu**"
+    - title: "Target Detection With Spectral Graph Contrast Clustering Assignment and Spectral Graph Transformer in Hyperspectral Imagery"
+      authors_text: "Xi Chen, **Maojun Zhang**, Yu Liu"
       media_icon:
         type: image
-        src: "img/research/s2-p2.png"
-      journal: "CVPR 2025"
+        src: "img/research/Target Detection With Spectral Graph.png"
+      journal: "IEEE Transactions on Geoscience and Remote Sensing"
+      cite_text: |
+        @article{chen2024target,
+          title={Target detection with spectral graph contrast clustering assignment and spectral graph transformer in hyperspectral imagery},
+          author={Chen, Xi and Zhang, Maojun and Liu, Yu},
+          journal={IEEE Transactions on Geoscience and Remote Sensing},
+          volume={62},
+          pages={1--16},
+          year={2024},
+          publisher={IEEE}
+          }
+          
       links:
           - name: Paper
-            url: "https://arxiv.org/pdf/2504.07955.pdf"
+            url: "https://ieeexplore.ieee.org/abstract/document/10509725"
         
           - name: Project Page
-            url: "https://zju3dv.github.io/boxdreamer"
+            url: "https://github.com/daxichen"
         
           - name: Code
-            url: "https://github.com/zju3dv/BoxDreamer"
+            url: "https://github.com/daxichen"
     
   step3:
   
-    - title: "BoxDreamer: Dreaming Box Corners for Generalizable Object Pose Estimation"
-      authors_text: "Yuanhong Yu, Xingyi He, Chen Zhao, Junhao Yu, Jiaqi Yang, Ruizhen Hu Yujun Shen Xing Zhu, Xiaowei Zhou, **Sida Peng**"
+    - title: "NTR-Gaussian: Nighttime Dynamic Thermal Reconstruction with 4D Gaussian Splatting Based on Thermodynamics"
+      authors_text: "Kun Yang, Yuxiang Liu, Zeyu Cui, Yu Liu, Maojun Zhang, Shen Yan, Qing Wang"
       media_icon:
         type: image
-        src: "img/research/s3-p1.png"
+        src: "img/research/teaser_CVPR2025.png"
       journal: "CVPR 2025"
+      cite_text: |
+        @inproceedings{yang2025ntr,
+          title={NTR-Gaussian: Nighttime Dynamic Thermal Reconstruction with 4D Gaussian Splatting Based on Thermodynamics},
+          author={Yang, Kun and Liu, Yuxiang and Cui, Zeyu and Liu, Yu and Zhang, Maojun and Yan, Shen and Wang, Qing},
+          booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+          pages={691--700},
+          year={2025}
+        }
+      
       links:
           - name: Paper
-            url: "https://arxiv.org/pdf/2504.07955.pdf"
+            url: "https://cvpr.thecvf.com/virtual/2025/poster/33236"
         
           - name: Project Page
-            url: "https://zju3dv.github.io/boxdreamer"
+            url: "https://cvpr.thecvf.com/virtual/2025/poster/33236"
         
           - name: Code
-            url: "https://github.com/zju3dv/BoxDreamer"
-    
-  
-    - title: "ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness"
-      authors_text: "Boqian Li, Haiwen Feng, Zeyu Cai, Michael J. Black, **Yuliang Xiu**"
-      media_icon:
-        type: image
-        src: "img/research/s3-p2.png"
-      journal: "CVPR 2025"
-      links:
-          - name: Paper
-            url: "https://arxiv.org/pdf/2504.07955.pdf"
-        
-          - name: Project Page
-            url: "https://zju3dv.github.io/boxdreamer"
-        
-          - name: Code
-            url: "https://github.com/zju3dv/BoxDreamer"
+            url: "https://cvpr.thecvf.com/virtual/2025/poster/33236"
     
 
   
