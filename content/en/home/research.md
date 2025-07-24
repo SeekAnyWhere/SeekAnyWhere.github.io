@@ -175,38 +175,21 @@ research_step_papers:
     
   step3:
   
-    - title: "BoxDreamer: Dreaming Box Corners for Generalizable Object Pose Estimation"
-      authors_text: "Yuanhong Yu, Xingyi He, Chen Zhao, Junhao Yu, Jiaqi Yang, Ruizhen Hu Yujun Shen Xing Zhu, Xiaowei Zhou, **Sida Peng**"
+    - title: "NTR-Gaussian: Nighttime Dynamic Thermal Reconstruction with 4D Gaussian Splatting Based on Thermodynamics"
+      authors_text: "Kun Yang, Yuxiang Liu, Zeyu Cui, Yu Liu, Maojun Zhang, Shen Yan, Qing Wang"
       media_icon:
         type: image
-        src: "img/research/s3-p1.png"
+        src: "img/research/teaser_CVPR2025.png"
       journal: "CVPR 2025"
       links:
           - name: Paper
-            url: "https://arxiv.org/pdf/2504.07955.pdf"
+            url: "https://cvpr.thecvf.com/virtual/2025/poster/33236"
         
           - name: Project Page
-            url: "https://zju3dv.github.io/boxdreamer"
+            url: "https://cvpr.thecvf.com/virtual/2025/poster/33236"
         
           - name: Code
-            url: "https://github.com/zju3dv/BoxDreamer"
-    
-  
-    - title: "ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness"
-      authors_text: "Boqian Li, Haiwen Feng, Zeyu Cai, Michael J. Black, **Yuliang Xiu**"
-      media_icon:
-        type: image
-        src: "img/research/s3-p2.png"
-      journal: "CVPR 2025"
-      links:
-          - name: Paper
-            url: "https://arxiv.org/pdf/2504.07955.pdf"
-        
-          - name: Project Page
-            url: "https://zju3dv.github.io/boxdreamer"
-        
-          - name: Code
-            url: "https://github.com/zju3dv/BoxDreamer"
+            url: "https://cvpr.thecvf.com/virtual/2025/poster/33236"
     
 
   
