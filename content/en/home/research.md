@@ -42,6 +42,26 @@ research_step_names:
 research_step_papers:
   step1:
 
+    - title: "UAV-GeoLoc: A Large-vocabulary Dataset and Geometry-Transformed Method for UAV Geo-Localization"
+      authors_text: "Rouwan Wu, jiacheng Deng, Mingyu Mou, Xingyi He, Maojun Zhang, Yu Liu, **Shen Yan**"
+      media_icon:
+        type: image
+        src: "img/research/teaser_RAL.png"
+      journal: "IEEE Robotics and Automation Letters"
+      intro: "World-UAV -- a diverse and realistic dataset for UAV-to-satellite geo-localization, UAVPlace -- a transformation-invariant retrieval method that significantly improves performance under extreme viewpoint variations."
+      cite_text: |
+        
+
+      links:
+          - name: Paper
+            url: "https://ieeexplore.ieee.org/document/11077664"
+        
+          - name: Project Page
+            url: "https://ringowrw.github.io/GeoLoc-UAV/"
+        
+          - name: Code
+            url: "https://github.com/RingoWRW/GeoLoc-UAV"
+
     - title: "LoD-Loc v2: Aerial Visual Localization over Low Level-of-Detail City Models using Explicit Silhouette Alignment"
       authors_text: "Juelin Zhu, Shuaibang Peng, Long Wang, Hanlin Tan, Yu Liu, Maojun  Zhang, **Shen  Yan**"
       media_icon:
@@ -96,6 +116,26 @@ research_step_papers:
         
           - name: Code
             url: "https://github.com/VictorZoo/LoD-Loc"
+
+    - title: "UAVD4L:A Large-Scale Dataset for UAV6-DoF Localization"
+      authors_text: "Rouwan Wu, Xiaoya Cheng, Juelin Zhu, Yuxiang Liu, **Maojun Zhang**, Shen Yan"
+      media_icon:
+        type: image
+        src: "img/research/teaser_3DV.png"
+      journal: "IEEE 3DV"
+      intro: "The first large-scale dataset designed specifically for 6-DoF localization of UAVs in GPS-denied environments."
+      cite_text: |
+        
+
+      links:
+          - name: Paper
+            url: "https://arxiv.org/pdf/2401.05971"
+        
+          - name: Project Page
+            url: "https://seekanywhere.github.io/"
+        
+          - name: Code
+            url: "https://github.com/RingoWRW/UAVD4L"
 
     
   step2:
