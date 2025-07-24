@@ -125,6 +125,14 @@ research_step_papers:
       journal: "IEEE 3DV"
       intro: "The first large-scale dataset designed specifically for 6-DoF localization of UAVs in GPS-denied environments."
       cite_text: |
+        @inproceedings{wu2024uavd4l,
+          title={UAVD4L: A Large-Scale Dataset for UAV 6-DoF Localization},
+          author={Wu, Rouwan and Cheng, Xiaoya and Zhu, Juelin and Liu, Yuxiang and Zhang, Maojun and Yan, Shen},
+          booktitle={2024 International Conference on 3D Vision (3DV)},
+          pages={1574--1583},
+          year={2024},
+          organization={IEEE}
+        }
         
 
       links:
@@ -146,6 +154,17 @@ research_step_papers:
         type: image
         src: "img/research/S2AMSnet.png"
       journal: "IEEE Transactions on Geoscience and Remote Sensing"
+      cite_text: |
+        @article{chen2024spectral,
+          title={Spectral--spatial adversarial multidomain synthesis network for cross-scene hyperspectral image classification},
+          author={Chen, Xi and Gao, Lin and Zhang, Maojun and Chen, Chen and Yan, Shen},
+          journal={IEEE Transactions on Geoscience and Remote Sensing},
+          volume={62},
+          pages={1--16},
+          year={2024},
+          publisher={IEEE}
+          }
+      
       links:
           - name: Paper
             url: "https://ieeexplore.ieee.org/abstract/document/10531019"
@@ -162,7 +181,18 @@ research_step_papers:
       media_icon:
         type: image
         src: "img/research/Target Detection With Spectral Graph.png"
-      journal: "CVPR 2025"
+      journal: "IEEE Transactions on Geoscience and Remote Sensing"
+      cite_text: |
+        @article{chen2024target,
+          title={Target detection with spectral graph contrast clustering assignment and spectral graph transformer in hyperspectral imagery},
+          author={Chen, Xi and Zhang, Maojun and Liu, Yu},
+          journal={IEEE Transactions on Geoscience and Remote Sensing},
+          volume={62},
+          pages={1--16},
+          year={2024},
+          publisher={IEEE}
+          }
+          
       links:
           - name: Paper
             url: "https://ieeexplore.ieee.org/abstract/document/10509725"
@@ -181,6 +211,15 @@ research_step_papers:
         type: image
         src: "img/research/teaser_CVPR2025.png"
       journal: "CVPR 2025"
+      cite_text: |
+        @inproceedings{yang2025ntr,
+          title={NTR-Gaussian: Nighttime Dynamic Thermal Reconstruction with 4D Gaussian Splatting Based on Thermodynamics},
+          author={Yang, Kun and Liu, Yuxiang and Cui, Zeyu and Liu, Yu and Zhang, Maojun and Yan, Shen and Wang, Qing},
+          booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+          pages={691--700},
+          year={2025}
+        }
+      
       links:
           - name: Paper
             url: "https://cvpr.thecvf.com/virtual/2025/poster/33236"
