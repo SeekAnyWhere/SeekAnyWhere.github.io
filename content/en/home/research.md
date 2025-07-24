@@ -157,21 +157,21 @@ research_step_papers:
             url: "https://github.com/daxichen/S2AMSnet"
     
   
-    - title: "ETCH: Generalizing Body Fitting to Clothed Humans via Equivariant Tightness"
-      authors_text: "Boqian Li, Haiwen Feng, Zeyu Cai, Michael J. Black, **Yuliang Xiu**"
+    - title: "Target Detection With Spectral Graph Contrast Clustering Assignment and Spectral Graph Transformer in Hyperspectral Imagery"
+      authors_text: "Xi Chen, **Maojun Zhang**, Yu Liu"
       media_icon:
         type: image
-        src: "img/research/s2-p2.png"
+        src: "img/research/Target Detection With Spectral Graph.png"
       journal: "CVPR 2025"
       links:
           - name: Paper
-            url: "https://arxiv.org/pdf/2504.07955.pdf"
+            url: "https://ieeexplore.ieee.org/abstract/document/10509725"
         
           - name: Project Page
-            url: "https://zju3dv.github.io/boxdreamer"
+            url: "https://github.com/daxichen"
         
           - name: Code
-            url: "https://github.com/zju3dv/BoxDreamer"
+            url: "https://github.com/daxichen"
     
   step3:
   
