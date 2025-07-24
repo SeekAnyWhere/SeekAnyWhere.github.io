@@ -2,7 +2,7 @@
 title: "LoD-Loc: Aerial Visual Localization using LoD 3D Map with Neural Wireframe Alignment"
 authors_text: "Juelin Zhu, Shen Yan, Long Wang, Shengyue Zhang, Yu Liu, **Maojun Zhang**"
 journal: "NeurIPS 2024"
-date: 2024
+date: 2024-07-10
 intro: ""
 weight: 3
 media_icon:
