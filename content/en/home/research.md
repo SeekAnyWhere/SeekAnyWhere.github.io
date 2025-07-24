@@ -85,6 +85,35 @@ research_step_papers:
         
           - name: Code
             url: "https://github.com/zju3dv/BoxDreamer"
+
+
+    - title: "LoD-Loc: Aerial Visual Localization using LoD 3D Map with Neural Wireframe Alignment"
+      authors_text: "Juelin Zhu, Shen Yan, Long Wang, Shengyue Zhang, Yu Liu, **Maojun Zhang**"
+      media_icon:
+        type: image
+        src: "content/en/publication/NIPS_2024/teaser.png"
+      journal: "NeurIPS 2024"
+      intro: "A new method for aerial visual localization using LoD 3D map with neural wireframe alignment."
+      cite_text: |
+        @inproceedings{
+          zhu2024lodloc,
+          title={LoD-Loc: Aerial Visual Localization using LoD 3D Map with Neural Wireframe Alignment},
+          author={Juelin Zhu and Shen Yan and Long Wang and zhang shengYue and Yu Liu and Maojun Zhang},
+          booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+          year={2024},
+          url={https://openreview.net/forum?id=PqlKliEXyJ}
+          }
+
+      links:
+          - name: Paper
+            url: "https://arxiv.org/abs/2410.12269"
+        
+          - name: Project Page
+            url: "https://github.com/VictorZoo/LoD-Loc"
+        
+          - name: Code
+            url: "https://github.com/VictorZoo/LoD-Loc"
+    
     
   step2:
   
