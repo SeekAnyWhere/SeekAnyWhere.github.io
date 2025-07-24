@@ -7,7 +7,7 @@ intro: "A Method for Hyperspectral Image Target Detection."
 weight: 3
 media_icon:
   type: "image"
-  src: "SGCCA.png"
+  src: "teaser.png"
   
 links:
 
