@@ -43,32 +43,32 @@ research_step_papers:
   step1:
 
     - title: "LoD-Loc v2: Aerial Visual Localization over Low Level-of-Detail City Models using Explicit Silhouette Alignment"
-        authors_text: "Juelin Zhu, Shuaibang Peng, Long Wang, Hanlin Tan, Yu Liu, Maojun  Zhang, **Shen  Yan**"
-        media_icon:
-          type: image
-          src: "img/research/teaser_ICCV.png"
-        journal: "ICCV 2025"
-        intro: "We propose a novel method for aerial visual localization over low Level-of-Detail (LoD) city models. Previous wireframe-alignment-based method LoD-Loc [97] has shown promising localization results leveraging LoD models. However, LoD-Loc mainly relies on high-LoD (LoD3 or LoD2) city models, but the majority of available models and those many countries plan to construct nationwide are low-LoD (LoD1). Consequently, enabling localization on low-LoD city models could unlock drones' potential for global urban localization. To address these issues, we introduce LoD-Loc v2, which employs a coarse-to-fine strategy using explicit silhouette alignment to achieve accurate localization over low-LoD city models in the air. Specifically, given a query image, LoD-Loc v2 first applies a building segmentation network to shape building silhouettes. Then, in the coarse pose selection stage, we construct a pose cost volume by uniformly sampling pose hypotheses around a prior pose to represent the pose probability distribution. Each cost of the volume measures the degree of alignment between the projected and predicted silhouettes. We select the pose with maximum value as the coarse pose. In the fine pose estimation stage, a particle filtering method incorporating a multi-beam tracking approach is used to efficiently explore the hypothesis space and obtain the final pose estimation. To further facilitate research in this field, we release two datasets with LoD1 city models covering 10.7 km, along with real RGB queries and ground-truth pose annotations. Experimental results show that LoD-Loc v2 improves estimation accuracy with high-LoD models and enables localization with low-LoD models for the first time. Moreover, it outperforms state-of-the-art baselines by large margins, even surpassing texture-model-based methods, and broadens the convergence basin to accommodate larger prior errors. The code and dataset will be made available upon publication."
-        cite_text: |
-          @misc{zhu2025lodlocv2aerialvisual,
-                title={LoD-Loc v2: Aerial Visual Localization over Low Level-of-Detail City Models using Explicit Silhouette Alignment}, 
-                author={Juelin Zhu and Shuaibang Peng and Long Wang and Hanlin Tan and Yu Liu and Maojun Zhang and Shen Yan},
-                year={2025},
-                eprint={2507.00659},
-                archivePrefix={arXiv},
-                primaryClass={cs.CV},
-                url={https://arxiv.org/abs/2507.00659}, 
-          }
-  
-        links:
-            - name: Paper
-              url: "https://arxiv.org/abs/2507.00659"
-          
-            - name: Project Page
-              url: "https://github.com/VictorZoo/LoD-Loc-v2"
-          
-            - name: Code
-              url: "https://github.com/VictorZoo/LoD-Loc-v2" 
+      authors_text: "Juelin Zhu, Shuaibang Peng, Long Wang, Hanlin Tan, Yu Liu, Maojun  Zhang, **Shen  Yan**"
+      media_icon:
+        type: image
+        src: "img/research/teaser_ICCV.png"
+      journal: "ICCV 2025"
+      intro: "We propose a novel method for aerial visual localization over low Level-of-Detail (LoD) city models. Previous wireframe-alignment-based method LoD-Loc [97] has shown promising localization results leveraging LoD models. However, LoD-Loc mainly relies on high-LoD (LoD3 or LoD2) city models, but the majority of available models and those many countries plan to construct nationwide are low-LoD (LoD1). Consequently, enabling localization on low-LoD city models could unlock drones' potential for global urban localization. To address these issues, we introduce LoD-Loc v2, which employs a coarse-to-fine strategy using explicit silhouette alignment to achieve accurate localization over low-LoD city models in the air. Specifically, given a query image, LoD-Loc v2 first applies a building segmentation network to shape building silhouettes. Then, in the coarse pose selection stage, we construct a pose cost volume by uniformly sampling pose hypotheses around a prior pose to represent the pose probability distribution. Each cost of the volume measures the degree of alignment between the projected and predicted silhouettes. We select the pose with maximum value as the coarse pose. In the fine pose estimation stage, a particle filtering method incorporating a multi-beam tracking approach is used to efficiently explore the hypothesis space and obtain the final pose estimation. To further facilitate research in this field, we release two datasets with LoD1 city models covering 10.7 km, along with real RGB queries and ground-truth pose annotations. Experimental results show that LoD-Loc v2 improves estimation accuracy with high-LoD models and enables localization with low-LoD models for the first time. Moreover, it outperforms state-of-the-art baselines by large margins, even surpassing texture-model-based methods, and broadens the convergence basin to accommodate larger prior errors. The code and dataset will be made available upon publication."
+      cite_text: |
+        @misc{zhu2025lodlocv2aerialvisual,
+              title={LoD-Loc v2: Aerial Visual Localization over Low Level-of-Detail City Models using Explicit Silhouette Alignment}, 
+              author={Juelin Zhu and Shuaibang Peng and Long Wang and Hanlin Tan and Yu Liu and Maojun Zhang and Shen Yan},
+              year={2025},
+              eprint={2507.00659},
+              archivePrefix={arXiv},
+              primaryClass={cs.CV},
+              url={https://arxiv.org/abs/2507.00659}, 
+        }
+
+      links:
+          - name: Paper
+            url: "https://arxiv.org/abs/2507.00659"
+        
+          - name: Project Page
+            url: "https://github.com/VictorZoo/LoD-Loc-v2"
+        
+          - name: Code
+            url: "https://github.com/VictorZoo/LoD-Loc-v2" 
   
     - title: "LoD-Loc: Aerial Visual Localization using LoD 3D Map with Neural Wireframe Alignment"
       authors_text: "Juelin Zhu, Shen Yan, Long Wang, Shengyue Zhang, Yu Liu, **Maojun Zhang**"
