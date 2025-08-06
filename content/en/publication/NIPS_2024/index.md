@@ -7,7 +7,7 @@ intro: ""
 weight: 3
 media_icon:
   type: "image"
-  src: "Lod_Loc.gif"
+  src: "LoD_Loc.gif"
   style: "max-width: 400px; height: auto;"
   
 links:
