@@ -1,6 +1,6 @@
 ---
 title: "UAVD4L:A Large-Scale Dataset for UAV6-DoF Localization"
-authors_text: "Rouwan Wu, Xiaoya Cheng, Juelin Zhu, Yuxiang Liu, **Maojun Zhang**, Shen Yan"
+authors_text: "Rouwan Wu*, Xiaoya Cheng*, Juelin Zhu, Yuxiang Liu, **Maojun Zhang†**, Shen Yan"
 journal: "IEEE 3DV"
 date: 2024-03-01
 intro: "The first large-scale dataset designed specifically for 6-DoF localization of UAVs in GPS-denied environments"
