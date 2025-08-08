@@ -7,8 +7,8 @@ intro: ""
 weight: 3
 media_icon:
   type: "image"
-  src: "S2AMSnet.png"
-  style: "max-width: 400px; height: auto;"
+  src: "ThermalGS.gif"
+ 
   
 links:
 

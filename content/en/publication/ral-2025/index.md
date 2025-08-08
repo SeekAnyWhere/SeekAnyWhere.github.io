@@ -8,7 +8,6 @@ weight: 3
 media_icon:
   type: "image"
   src: "demo_small.gif"
-  style: "max-width: 400px; height: auto;"
   
 links:
 
