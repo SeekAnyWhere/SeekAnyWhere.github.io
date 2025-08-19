@@ -89,7 +89,7 @@
 
         <div class="row pub-item grid-sizer isotope-item year-{{ $pub_item.Date.Format "2006" }}" style=" ">
           <div class="col-12 col-md-2">
-
+            <div class="pub-image-wrap">
               {{ if eq $pub_item.media_icon.type "video" }}
                 <video autoplay="" loop="" muted="">
                   <source src="{{ add $page_folder "/" $pub_item.media_icon.src | relLangURL }}" type="video/mp4">
@@ -97,7 +97,7 @@
               {{ else }}
                 <img src="{{ add $page_folder "/" $pub_item.media_icon.src | relLangURL }}"/>
               {{ end }}
-
+            </div>
           </div>
           <div class="col-12 col-md-10">
               <div>
