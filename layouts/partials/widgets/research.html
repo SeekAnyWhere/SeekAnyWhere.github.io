@@ -42,13 +42,16 @@
 
           {{/*<img class="lead-img" src="{{ $paper.image | relLangURL }}" />*/}}
 
+          <div class="pub-image-wrap">
             {{ if eq $paper.media_icon.type "video" }}
-              <video autoplay="" loop="" muted="">
-                <source src="{{ $paper.media_icon.src | relLangURL }}" type="video/mp4">
-              </video>
+            <video autoplay="" loop="" muted="">
+              <source src="{{ $paper.media_icon.src | relLangURL }}" type="video/mp4">
+            </video>
             {{ else }}
-              <img class="lead-img" src="{{ $paper.media_icon.src | relLangURL }}" />
+            <img class="lead-img" src="{{ $paper.media_icon.src | relLangURL }}" />
             {{ end }}
+          </div>
+
 
         </div>
         <div class="col-12 col-md-10" >
