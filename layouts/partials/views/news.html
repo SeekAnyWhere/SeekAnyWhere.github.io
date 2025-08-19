@@ -6,7 +6,7 @@
 <div class="media stream-item view-compact">
   <div class="media-body">
 
-      <span>[{{ $item.Params.date | time.Format "2006/Jan/02" }}]</span>
+      <span>[{{ $item.Params.date | time.Format "2006/01" }}]</span>
       <span>{{ $item.Title | markdownify | emojify }}</span>
 
 {{/*
