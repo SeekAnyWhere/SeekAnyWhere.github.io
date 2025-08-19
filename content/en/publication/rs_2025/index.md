@@ -1,7 +1,7 @@
 ---
 title: "ThermalGS: Dynamic 3D Thermal Reconstruction with Gaussian Splatting"
 authors_text: "Yuxiang Liu, Xi Chen, Shen Yan, Zeyu Cui, Huaxin Xiao, Yu Liu, **Maojun Zhang**"
-journal: "Remote Sensing"
+journal: "Remote Sensing 2025"
 date: 2025-02-15
 intro: ""
 weight: 3

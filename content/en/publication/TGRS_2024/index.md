@@ -1,7 +1,7 @@
 ---
 title: "Spectral–spatial adversarial multidomain synthesis network for cross-scene hyperspectral image classification"
 authors_text: "Xi Chen, Lin Gao, **Maojun Zhang**, Chen Chen, Shen Yan"
-journal: "IEEE Transactions on Geoscience and Remote Sensing"
+journal: "TGRS 2024"
 date: 2024-05-15
 intro: "A Method for Robust Cross-Scene Hyperspectral Image Classification via Expansion of Source Domain Distribution Diversity."
 weight: 3

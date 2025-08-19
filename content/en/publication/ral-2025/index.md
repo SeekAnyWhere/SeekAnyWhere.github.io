@@ -1,7 +1,7 @@
 ---
 title: "UAV-GeoLoc: A Large-vocabulary Dataset and Geometry-Transformed Method for UAV Geo-Localization"
 authors_text: "Rouwan Wu, jiacheng Deng, Mingyu Mou, Xingyi He, Maojun Zhang, Yu Liu, **Shen Yan†**"
-journal: "IEEE Robotics and Automation Letters"
+journal: "RA-L 2025"
 date: 2025-07-10
 intro: "World-UAV -- a diverse and realistic dataset for UAV-to-satellite geo-localization, UAVPlace -- a transformation-invariant retrieval method that significantly improves performance under extreme viewpoint variations."
 weight: 3

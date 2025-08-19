@@ -1,7 +1,7 @@
 ---
 title: "Target Detection With Spectral Graph Contrast Clustering Assignment and Spectral Graph Transformer in Hyperspectral Imagery"
 authors_text: "Xi Chen, **Maojun Zhang**, Yu Liu"
-journal: "IEEE Transactions on Geoscience and Remote Sensing"
+journal: "TGRS 2025"
 date: 2024-04-29
 intro: "A Method for Hyperspectral Image Target Detection."
 weight: 3
