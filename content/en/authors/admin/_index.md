@@ -1,6 +1,6 @@
 ---
 
-title: Seek-AnyWhere 猎影
+title: SeekAnyWhere 猎影
 
 
 role: College of Systems Engineering
@@ -89,7 +89,7 @@ highlight_name: true
 ---
 
 
-Welcome to the website of SAW (Seek-AnyWhere) Lab​. Our lab is affiliated with the College of Systems Engineering at National University of Defense Technology. We are mainly engaged in the field of 3D Computer Vision, particularly including GPS-independent UAV localization, planet-scale digital twins, and physics-based multimodal simulation. Most of our works are open-sourced, please explore our [Github Page](http://github.com/seekanywhere) to know more about our projects!
+Welcome to the website of SAW (SeekAnyWhere) Lab. Our lab is affiliated with the College of Systems Engineering at National University of Defense Technology. We are mainly engaged in the field of 3D Computer Vision, particularly including planet-scale digital twins, GPS-independent UAV localization, and physics-based multimodal simulation.  Most of our works are open-sourced, please explore our [Github Page](http://github.com/seekanywhere) to know more about our projects!
 
 Join Us:​​ We are looking for self-motivated students, postdocs and research assistants, please contact [this Email](mailto:yanshen12@nudt.edu.cn) if you are interested in working with us.
 
