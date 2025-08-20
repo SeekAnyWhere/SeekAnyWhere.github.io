@@ -7,7 +7,7 @@ intro: "A Method for Robust Cross-Scene Hyperspectral Image Classification via E
 weight: 3
 media_icon:
   type: "image"
-  src: "S2AMSnet.png"
+  src: "S2amsnet.png"
   
 links:
 
@@ -31,4 +31,5 @@ featured: true
 
 
 ---
+
 
