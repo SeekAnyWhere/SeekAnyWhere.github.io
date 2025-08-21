@@ -1,7 +1,7 @@
 ---
 title: "ATLoc: Aerial Thermal Images Localization via View Synthesis"
 authors_text: "Yuxiang Liu*, Rouwan Wu*, Shen Yan, Xiaoya Cheng, Juelin Zhu, Yu Liu, **Maojun Zhang†**"
-journal: "IEEE Transactions on Geoscience and Remote Sensing"
+journal: "TGRS 2025"
 date: 2024-01-10
 intro: " "
 weight: 3
